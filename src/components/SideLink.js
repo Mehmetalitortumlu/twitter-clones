@@ -8,7 +8,7 @@ const SideLink = ({ name, Icon, handleMenuItemClik, active }) => {
                 <div className='inline-block'>
                     <div className={`flex items-center group-hover:bg-primary-light rounded-full group-hover:text-primary-base pl-3  ${isActive ? "text-primary-base" : ""} `}>
                         <Icon />
-                        <span className='ml-4 font-bold py-3  pr-8 '>{name}</span>
+                        <span className='ml-4 font-bold py-3 pr-8 hidden lg:block'>{name}</span>
                     </div>
                 </div>
             </a>

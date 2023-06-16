@@ -55,7 +55,7 @@ const Sidebar = () => {
         setActive(name)
     }
     return (
-        <div className='h-screen sticky top-0 w-72 flex flex-col justify-between px-2 '>
+        <div className='h-screen sticky top-0 w-24 md:w-40 lg:w-72 flex flex-col justify-between px-2 '>
 
             <div>
                 {/* menu */}
@@ -72,7 +72,7 @@ const Sidebar = () => {
                         }
                     </ul>
                 </nav>
-                <button className='bg-primary-base hover:bg-primary-dark transform transition-colors duration-200 text-white rounded-full px-8 py-3 w-11/12 shadow-lg'>Tweet</button>
+                <button className='bg-primary-base hover:bg-primary-dark transform transition-colors duration-200 text-white rounded-full px-8 py-3 w-11/12 shadow-lg hidden lg:block'>Tweet</button>
             </div>
 
             {/* userbox */}

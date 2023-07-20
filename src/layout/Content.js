@@ -15,11 +15,11 @@ const Content = () => {
       const tweetData = snapshot.docs.map((doc) => doc.data());
       setTweet(tweetData);
     });
-  
+
     return () => unsubscribe();
   }, []);
 
- 
+
 
 
   return (
@@ -37,7 +37,7 @@ const Content = () => {
 
       </div>
       <Divider />
-<FeedList tweets={tweet}/>
+      <FeedList tweets={tweet} />
 
     </main>
   )

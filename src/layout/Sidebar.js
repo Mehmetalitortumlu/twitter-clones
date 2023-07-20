@@ -55,7 +55,7 @@ const Sidebar = () => {
         setActive(name)
     }
     return (
-        <div className='h-screen sticky top-0 w-24 md:w-40 lg:w-72 flex flex-col justify-between px-2 '>
+        <div className='h-screen sticky top-0 w-20 md:w-32 lg:w-72 flex flex-col justify-between px-2 '>
 
             <div>
                 {/* menu */}

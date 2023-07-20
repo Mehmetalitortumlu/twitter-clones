@@ -3,9 +3,8 @@ import { LikeIcon } from '../icon/icon'
 
 const FeedItem = ({ avatar, content, displayName, images, timeStamp, userName }) => {
     return (
-        <article className='flex space-x-3 border-gray-extraLight px-4 py-3 cursor-pointer '>
+        <article className='flex space-x-2 md:space-x-3 border-gray-extraLight px-4 py-3 cursor-pointer justify-center relative'>
             <img src={images} alt="Profile" className='w-11 h-11 rounded-full' />
-
             <div className='flex-1'>
                 <div className='flex items-center text-sm'>
                     <h4 className='font-bold'>{displayName}</h4>

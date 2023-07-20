@@ -20,17 +20,15 @@ const Content = () => {
   }, []);
 
 
-
-
   return (
     <main className='flex-1 border-r border-l flex flex-col border-gray-extraLight'>
 
-      <header className='flex justify-between p-4 border-b border-gray-extraLight bg-white sticky top-0 z-10'>
+      <header className='flex justify-between  p-4 border-b border-gray-extraLight bg-white sticky top-0 z-10'>
         <span>Home</span>
         <TwitterBlueIcon className="w-7 h-7 text-primary-base" />
       </header>
 
-      <div className='flex  px-4 py-3 space-x-4'>
+      <div className='flex px-4 py-3 md:space-x-4'>
         <img src="https://pbs.twimg.com/profile_images/1559599279718764544/eB1Nw98b_400x400.jpg" className='w-11 h-11 rounded-full' alt="" />
 
         <TweetBox />

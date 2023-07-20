@@ -3,7 +3,7 @@ import FeedItem from './FeedItem'
 
 const FeedList = ({ tweets }) => {
     return (
-        <div>
+        <div >
             {
                 tweets && tweets.map((tweet, i) => (
                     <FeedItem {...tweet} key={i} />
